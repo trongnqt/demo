@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web demo thiết kế riêng – VINAYES</title>
+<meta name="description" content="Web demo thiết kế riêng cho từng doanh nghiệp, thực hiện bởi Công ty TNHH VINAYES – Thiết kế web Đà Nẵng.">
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root{--main:#0b6e5f;--main-dark:#08544a;--ink:#1d2b2a;--muted:#5b6b69;--bg:#f5f8f7;--line:#dde7e5}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:20px;letter-spacing:.5px;text-decoration:none;color:var(--main)}
+  .logo span{color:var(--ink);font-weight:500;font-size:14px;margin-left:8px}
+  header nav a{font-size:15px;text-decoration:none;color:var(--muted);margin-left:18px}
+  header nav a:hover{color:var(--main)}
+  .hero{background:var(--bg);padding:72px 0 64px;text-align:center}
+  .hero h1{font-size:clamp(28px,5vw,42px);line-height:1.25;margin-bottom:16px}
+  .hero p{font-size:18px;color:var(--muted);max-width:640px;margin:0 auto 32px}
+  .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 26px;border-radius:8px;font-weight:600;text-decoration:none;font-size:16px}
+  .btn-main{background:var(--main);color:#fff}
+  .btn-main:hover{background:var(--main-dark)}
+  .btn-line{border:2px solid var(--main);color:var(--main)}
+  section{padding:64px 0}
+  h2{font-size:28px;text-align:center;margin-bottom:36px}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+  .step{border:1px solid var(--line);border-radius:12px;padding:24px}
+  .step b{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--main);color:#fff;margin-bottom:12px}
+  .step h3{font-size:18px;margin-bottom:6px}
+  .step p{color:var(--muted);font-size:15px}
+  .why{background:var(--bg)}
+  .why ul{list-style:none;max-width:620px;margin:0 auto}
+  .why li{padding:12px 0 12px 32px;border-bottom:1px solid var(--line);position:relative}
+  .why li:before{content:"✓";position:absolute;left:4px;color:var(--main);font-weight:700}
+  .more{text-align:center;margin-top:32px}
+  .contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:20px}
+  .card small{display:block;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+  .card a{text-decoration:none;font-weight:600;color:var(--main)}
+  footer{border-top:1px solid var(--line);padding:24px 0;text-align:center;color:var(--muted);font-size:14px}
+  .float{position:fixed;right:16px;bottom:16px;display:flex;flex-direction:column;gap:10px;z-index:9}
+  .float a{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.2);font-size:13px}
+  .f-zalo{background:#0068ff}.f-call{background:var(--main)}
+  @media(max-width:600px){header nav{display:none}.hero{padding:52px 0 44px}section{padding:48px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="/">VINAYES<span>Thiết kế web Đà Nẵng</span></a>
+    <nav>
+      <a href="#cach-lam">Cách làm</a>
+      <a href="https://vinayes.com/" target="_blank" rel="noopener">Bảng giá &amp; mẫu web</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Web demo thiết kế riêng<br>cho doanh nghiệp của bạn</h1>
+    <p>Đây là nơi VINAYES đăng các bản web demo làm sẵn cho từng khách hàng. Xem trước miễn phí, ưng ý rồi mới làm thật.</p>
+    <div class="btns">
+      <a class="btn btn-main" href="https://zalo.me/0981823238" target="_blank" rel="noopener">Nhắn Zalo nhận demo</a>
+      <a class="btn btn-line" href="tel:0981823238">Gọi 0981.823.238</a>
+    </div>
+  </div>
+</div>
+
+<section id="cach-lam">
+  <div class="wrap">
+    <h2>Cách nhận web demo</h2>
+    <div class="steps">
+      <div class="step"><b>1</b><h3>Nhắn cho VINAYES</h3><p>Gửi tên cửa hàng hoặc link fanpage qua Zalo.</p></div>
+      <div class="step"><b>2</b><h3>Nhận bản demo</h3><p>Chúng tôi làm bản web demo dựa trên thông tin và hình ảnh của bạn.</p></div>
+      <div class="step"><b>3</b><h3>Xem và góp ý</h3><p>Bạn xem trên điện thoại, góp ý chỉnh sửa. Không mất phí.</p></div>
+      <div class="step"><b>4</b><h3>Ưng ý mới làm thật</h3><p>Chốt gói phù hợp, VINAYES hoàn thiện và đưa web lên tên miền riêng.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <h2>Vì sao chọn VINAYES</h2>
+    <ul>
+      <li>10 năm kinh nghiệm thiết kế website tại Đà Nẵng</li>
+      <li>Thiết kế website giá rẻ, bảo hành trọn đời</li>
+      <li>Giao diện chạy tốt trên điện thoại</li>
+      <li>Xem demo trước, ưng ý rồi mới làm</li>
+    </ul>
+    <div class="more"><a class="btn btn-main" href="https://vinayes.com/" target="_blank" rel="noopener">Xem bảng giá và mẫu web</a></div>
+  </div>
+</section>
+
+<section id="lien-he">
+  <div class="wrap">
+    <h2>Liên hệ</h2>
+    <div class="contact">
+      <div class="card"><small>Công ty</small>CÔNG TY TNHH VINAYES<br>K200 Ông Ích Đường, Q. Cẩm Lệ, TP. Đà Nẵng</div>
+      <div class="card"><small>Hotline / Zalo</small><a href="tel:0981823238">0981.823.238</a><br><a href="https://zalo.me/0981823238" target="_blank" rel="noopener">Chat Zalo</a></div>
+      <div class="card"><small>Email &amp; Fanpage</small><a href="mailto:vinayesco@gmail.com">vinayesco@gmail.com</a><br><a href="https://www.facebook.com/vinayesco" target="_blank" rel="noopener">facebook.com/vinayesco</a></div>
+      <div class="card"><small>Website</small><a href="https://vinayes.com/" target="_blank" rel="noopener">vinayes.com</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>© CÔNG TY TNHH VINAYES · Thiết kế web Đà Nẵng · <a href="https://vinayes.com/" target="_blank" rel="noopener">vinayes.com</a></footer>
+
+<div class="float">
+  <a class="f-zalo" href="https://zalo.me/0981823238" target="_blank" rel="noopener" aria-label="Chat Zalo">Zalo</a>
+  <a class="f-call" href="tel:0981823238" aria-label="Gọi điện">Gọi</a>
+</div>
+</body>
+</html>
